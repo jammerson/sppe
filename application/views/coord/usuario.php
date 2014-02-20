@@ -1,0 +1,37 @@
+<?php
+echo "<div div='conteudo'>";
+echo heading('Cadastro de Usuário', 2);
+echo form_open(base_url('coord/cadastro/cadUsu'));
+    echo form_fieldset("Cadastro");
+        echo "<span class='validacoes'>".validation_errors()."</span>";
+        echo form_hidden('perfil', 'coordenador');
+        echo form_label('Nome', 'nome');
+        $data = array('name' => 'nome', 'id' => 'formulario-text');
+        echo form_input($data);
+        echo "<br />";
+        echo form_label('Email', 'email');
+        $data = array('name' => 'email', 'id' => 'formulario-text');
+        echo form_input($data);
+        echo "<br />";
+        echo form_label('Telefone', 'telefone');
+        $data = array('name' => 'telefone', 'id' => 'formulario-text');
+        echo form_input($data);
+        echo "<br />";
+        echo form_label('Login', 'login');
+        $data = array('name' => 'login', 'id' => 'formulario-text');
+        echo form_input($data);
+        echo "<br />";
+        echo form_label('Senha', 'senha');
+        $data = array('name' => 'senha', 'id' => 'formulario-text');
+        echo form_input($data);
+        echo "<br />";
+        echo form_label('Perfil', 'perfil');
+        $value = array('professor' => 'Professor', 'coordenador' => 'Coordenador');
+        $id =  'id="formulario-text"';
+        echo form_dropdown('perfil', $value, '', $id);
+        echo "<br />";
+        echo form_submit("btn_cadastro", "Cadastrar");
+    echo form_fieldset_close();
+echo form_close();
+echo "</div>";
+?>

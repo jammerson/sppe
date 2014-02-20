@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	line-height: 1;
+	background-image: url(imagens/background.jpg);
+	background-attachment:fixed;
+	background-position:center;
+	margin:0;
+	padding:0;
+	font-family: "Agency FB", Ubuntu, Calibri;
+	font-size:18px;
+	color:#203240;
+	font-weight: bold;	
+}
+#conteudo{width:350px; margin-top:160px; margin-left:500px; }
+#caixa{background-image:url(imagens/cabecalho.png); height:120px;}
+#corpo{background-image:url(imagens/back.png)}
+#fim{background-image:url(imagens/rodape.png); height:88px;}
+#formulario{
+	font-size:20px;
+}
+#maior{
+	font-size: 26px;
+}
+#maior1{
+	font-size: 24px;
+        font-weight: bold;
+}
+#none{
+	color:#557588;	
+}
+#formulario-text{
+	font-size:18px;
+	color: #203240;
+	font-family: "Agency FB", Calibri;
+	background-color: #FFF;
+	border: 1px solid #203240;
+	height:25px;
+	width: 210px;
+}
+#auto{
+	font-size:18px;
+	color: #203240;
+	font-family: "Agency FB", Calibri;
+	background-color: #FFF;
+	border: 1px solid #203240;
+	height:25px;
+	width: 290px;
+}
+#formulario-mini{
+	font-size:18px;
+	color: #203240;
+	font-family: "Agency FB", Calibri;
+	background-color: #FFF;
+	border: 1px solid #203240;
+	height:25px;
+	width: 150px;
+}
+#formulario-maior{
+	font-size:18px;
+	color: #203240;
+	font-family: "Agency FB", Calibri;
+	background-color: #FFF;
+	border: 1px solid #203240;
+	height:25px;
+	width: 400px;
+}
+#form-area{
+	font-size:18px;
+	color: #203240;
+	font-family: "Agency FB", Calibri;
+	background-color: #FFF;
+	border: 1px solid #203240;
+	height:100px;
+	width: 290px;
+}
+#form-area-maior{
+	font-size:18px;
+	color: #203240;
+	font-family: "Agency FB", Calibri;
+	background-color: #FFF;
+	border: 1px solid #203240;
+	height:100px;
+	width: 750px;
+}
+		  
+#bt{
+	font-family: "Agency FB";
+	font-size: 18px;
+	color:#FFF;
+	background-color: #203240;
+	height:30px;
+}
+.erro{
+	font-family: "Agency FB";
+	font-size: 20px;
+	color:#203240;
+	background-color:#FF3E3E;
+	font-weight: bold;
+	height:30px;
+}
+.ok{
+	font-family: "Agency FB";
+	font-size: 20px;
+	color:#203240;
+	background-color:#2FFF63;
+	font-weight: bold;
+	height:30px;
+}
+#cabecalho{
+	color:#FFF;
+}
+.a:link, a:visited{
+	text-decoration:none;
+	color:#203240;
+}
+.a:hover{
+	color:#557588;
+}

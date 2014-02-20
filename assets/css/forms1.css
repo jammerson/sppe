@@ -1,0 +1,78 @@
+@charset "utf-8";
+#forms {
+	font-family: "Agency FB";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color: #11161A;
+	border: 1px solid #11161A;
+}
+#form {
+	color: #1A3143;
+	font-size: 24px;
+	font-family: "Agency FB";
+}
+#form {
+	font-family: "Agency FB";
+}
+#form {
+	font-family: "Comic Sans MS", cursive;
+}
+#form {
+	font-family: "Agency FB";
+}
+#form {
+	font-family: "Agency FB";
+}
+.ta {
+	
+	border: 1px solid #2A3B45;
+	font-family: "Agency FB";
+	font-size: 20px;
+	color: #203240;
+}
+.tab {
+	background: #203240;
+	border: 1px solid #2A3B45;
+	font-family: "Agency FB";
+	font-size: 20px;
+	color: #FFF;
+}
+#form {
+	font-family: "Agency FB";
+	font-size: 24px;
+}
+.bc {
+	font-family: "Agency FB";
+	font-size: 18px;
+	font-weight: bold;
+	color: #2F3D4A;
+	text-align: center;
+}
+.topo {
+	font-size: 22px;
+	text-align: center;
+}
+.fab {
+	font-family: "Agency FB";
+	font-size: 18px;
+	font-weight: bold;
+	color: #2F3D4A;
+	text-align: left;
+}
+.erro {
+	font-family: "Agency FB";
+	font-size: 24px;
+	color: #2A3B45;
+	background-color: #F55;
+	border: 1px solid #F00;
+}
+.ok {
+	font-family: "Agency FB";
+	font-size: 24px;
+	color: #2F3D4A;
+	background-color: #64FF8B;
+	border: 1px solid #00FF40
+}
+
+
