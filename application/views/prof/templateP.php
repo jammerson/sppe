@@ -39,7 +39,7 @@ echo "<br />";
 
 <p><?php echo $contents ?></p>
 <div class="rodape">
-    <p> <?php echo "By JammersonF. Carregado em ".$this->benchmark->elapsed_time()." segundos"; ?> </p>
+    <p> <?php echo "Carregado em ".$this->benchmark->elapsed_time()." segundos"; ?> </p>
 </div>
 </body>
 </html>
